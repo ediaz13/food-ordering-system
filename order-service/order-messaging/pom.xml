@@ -12,7 +12,13 @@
     <artifactId>order-messaging</artifactId>
 
     <properties>
-
     </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.food.ordering.system</groupId>
+            <artifactId>order-application-service</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>
